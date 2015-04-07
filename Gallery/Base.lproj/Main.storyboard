@@ -35,6 +35,9 @@
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="64p-ew-TxU">
                                         <rect key="frame" x="75" y="264" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="susuChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="kRr-Rq-P8M"/>
+                                        </connections>
                                     </switch>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="susu.png" translatesAutoresizingMaskIntoConstraints="NO" id="9J2-Qd-eW6">
                                         <rect key="frame" x="47" y="10" width="80" height="80"/>
@@ -112,6 +115,9 @@
                                     </imageView>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="t63-mJ-TKF">
                                         <rect key="frame" x="54" y="124" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="masudaChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="eQX-ib-prc"/>
+                                        </connections>
                                     </switch>
                                 </subviews>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -151,6 +157,9 @@
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zdx-vQ-Uui">
                                         <rect key="frame" x="59" y="121" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="ohnoChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="pca-cq-lhD"/>
+                                        </connections>
                                     </switch>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="kazuo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TgJ-ES-Qrn">
                                         <rect key="frame" x="47" y="5" width="80" height="80"/>
@@ -203,6 +212,9 @@
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Pi-oC-Jtq">
                                         <rect key="frame" x="59" y="118" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="masumoriChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="8Hq-pK-kyK"/>
+                                        </connections>
                                     </switch>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="masu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mtf-fh-Hu1">
                                         <rect key="frame" x="47" y="2" width="80" height="80"/>
@@ -268,6 +280,9 @@
                                     </imageView>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2fQ-og-DzY">
                                         <rect key="frame" x="76" y="264" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="kenChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="WVO-oU-Qjw"/>
+                                        </connections>
                                     </switch>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -320,6 +335,9 @@
                                     </imageView>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xd5-L4-Dy2">
                                         <rect key="frame" x="59" y="126" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="aokiChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="5UD-NE-NBr"/>
+                                        </connections>
                                     </switch>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
